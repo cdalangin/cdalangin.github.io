@@ -4,44 +4,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="styles.css" type="stylesheet">
-    <title>Document</title>
+    <link href="./styles.css" rel="stylesheet">
+    <title>2nd Homework</title>
 </head>
 
 <body>
     <nav>
-        <a href="#">HOME</a>
-        <a href="#">ABOUT</a>
-        <a href="#">BOOK</a>
-        <a href="#">CONTACT</a>
+        <a href="#" class="links">HOME</a>
+        <a href="#" class="links">ABOUT</a>
+        <a href="#" class="links">BOOK</a>
+        <a href="#" class="links">CONTACT</a>
     </nav>
-    <section>
-        <!-- Embed file -->
+
+    <section class="website">
+        <embed type="text/html" src="../firstHW/firstHW.html" class="firstHW">
     </section>
-    <section>
+
+    <section class="secondsection">
         <div>
-            <img src="#" alt="">
+            <img src="../nyc.jpg" alt="new york city" class="image">
         </div>
-        <div>
-            <div>
-                <p>
+        <div class="subsection">
+            <div class="textsection">
+                <p class="hotpink text">
                     This is the hotpink paragraph, font family in Arial
                 </p>
-                <p>
+                <p class="pink text">
                     This is the pink paragraph. font family is Courier
                 </p>
-                <p>
-                    This is the lightpink paragraph, font family is Corsiva
+                <p class="lightpink text">
+                    This is the lightpink paragraph, font family is Times New Roman
                 </p>
             </div>
             <div>
-                <button>This is a button</button>
+                <button class="btn" onclick="popUp()">This is a button</button>
+                <!-- <div class="popup">
+                    <p>Pop up message!</p>
+                </div> -->
             </div>
         </div>
     </section>
     <footer>
-        <p>Study button, input, form and textarea elements</p>
+        <p>Study button, input, form and text area elements</p>
     </footer>
 </body>
+
+<script>
+    function popUp() {
+        alert("Pop up!");
+    }
+</script>
 
 </html>
