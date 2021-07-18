@@ -1,0 +1,64 @@
+/* Global */
+body {
+    margin: 0;
+}
+
+h1 {
+    color: #2F5D62;
+}
+
+p {
+    color: #2F5D62;
+}
+
+/* Trip Costs */
+
+
+table {
+    border: 5px solid #2F5D62;
+}
+
+td, tr {
+    background-color: #A7C4BC;
+    padding: 5px;
+}
+th {
+    background-color: #5E8B7E;
+    /* text-align: ; */
+}
+
+/* Contact Us */
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 5px;
+    align-items: center;
+}
+
+.logos {
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: blanchedalmond;
+}
+
+.footer_links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer_text {
+    display: flex;
+    align-self: center;
+}
