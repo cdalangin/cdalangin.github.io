@@ -1,18 +1,110 @@
 /* Global */
 body {
     margin: 0;
+    background-color: #DFEEEA;
 }
 
 h1 {
     color: #2F5D62;
 }
 
+h4 {
+    margin-bottom: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #5E8B7E;
+}
+
 p {
     color: #2F5D62;
 }
 
-/* Trip Costs */
+/* Navbar */
 
+.navbar {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #A7C4BC;
+}
+
+.left-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-img {
+    height: 90%;
+    /* width: 50%; */
+}
+
+/* Main Box */
+
+.sections {
+    padding: 30px;
+}
+
+.main-box {
+    background-color: #A7C4BC;
+    padding: 2vw;
+    border: 5px solid #2F5D62;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box-section {
+    display: flex;
+    flex-direction: row;
+    margin: 1vh;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.box-section:nth-child(2){
+    flex-direction: row-reverse;
+}
+
+.box-img {
+    width: 30%;
+    margin: 1%;
+}
+.box-link {
+    height: 100%;
+    width: 100%;
+}
+
+.box-text {
+    display: block;
+    width: 70%;
+    
+}
+
+
+/* Events */
+
+/* .events {
+    padding: 30px
+} */
+
+/* Newsfeed */
+
+/* .newsfeed {
+    padding: 30px
+} */
+
+.newsfeed-desc {
+    margin-top: 0;
+    padding: 0 40px;
+    /* text-indent: 5px; */
+}
+
+/* Trip Costs */
 
 table {
     border: 5px solid #2F5D62;
@@ -28,6 +120,9 @@ th {
 }
 
 /* Contact Us */
+/* .contact {
+    padding: 30px
+} */
 .contact-info {
     display: flex;
     flex-direction: row;
@@ -48,7 +143,8 @@ footer {
     flex-direction: column;
     margin-top: 30px;
     padding: 20px;
-    background-color: blanchedalmond;
+    background-color: #A7C4BC;
+    
 }
 
 .footer_links {
@@ -61,4 +157,52 @@ footer {
 .footer_text {
     display: flex;
     align-self: center;
+    margin-top: 10px;
+}
+
+/* CHOCOHILLS PAGE */
+
+.page-title {
+    text-align: center;
+}
+
+.page-main-box {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-around;
+ width: 100%
+}
+
+.page-boxes {
+    border: 4px solid #2F5D62;
+    width: 33%;
+    margin: 0.5%;
+}
+
+.page-boxes > p {
+    padding: 10%
+}
+
+/* Contact Page */
+
+.contact-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5E8B7E;
+}
+
+.fans {
+    letter-spacing: 4px;
 }

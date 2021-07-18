@@ -10,13 +10,19 @@
 </head>
 
 <body>
-    <nav>
-        <img src="" alt="airplane">
-        <img src="" alt="map">
+    <nav class="navbar">
+        <div class="left-nav">
+            <img src="img/photos/plane.png" alt="airplane" class="nav-img">
+            <p>Explore Bohol</p>
+        </div>
+        <div>
+            <img src="img/photos/tarsier.jpg" alt="map" class="nav-img">
+        </div>
+
     </nav>
 
     <!-- Box -->
-    <section>
+    <section class="sections">
         <div>
             <h1>Bohol, Philippines</h1>
             <p>
@@ -25,35 +31,82 @@
                 to help you get a first impression.
             </p>
         </div>
-        <div>
-            <div>
-                <img src="" alt="Chocolate hills">
-                <p></p>
+        <div class="main-box">
+            <div class="box-section">
+                <div class="box-img">
+                    <a href="./chocohills.html" class="box-link">
+                        <img src="img/photos/chocohills.jpg" alt="Chocolate hills" class="box-link">
+                    </a>
+                </div>
+                <p class="box-text">Besides a traditional inland tour with a bus or van, you can also enjoy the beauty
+                    of the smaller
+                    outlying islands and islets of Bohol, by pump-boat. If you are planning to join in on a whale and
+                    dolphin watching tour, you can combine this with island-hopping. In order to see dolphins and whales
+                    (only if you are lucky and come in the right season!), you'll have to leave early in the morning,
+                    sometimes as early as five o'clock, so that you can see a lot of them during their feeding time. The
+                    last time we did it, we saw a hundreds of dolphins, playing, jumping, spinning, and swimming next to
+                    and under our boat.</p>
             </div>
-            <div>
-                <img src="" alt="Island Hopping">
-                <p></p>
+            <div class="box-section">
+                <div class="box-img">
+                    <a href="./islandhopping.html" class="box-link">
+                        <img src="img/photos/island.jpg" alt="Island Hopping" class="box-link">
+                    </a>
+                </div>
+                <p class="box-text">Besides a traditional inland tour with a bus or van, you can also enjoy the beauty
+                    of the smaller
+                    outlying islands and islets of Bohol, by pump-boat. If you are planning to join in on a whale and
+                    dolphin watching tour, you can combine this with island-hopping. In order to see dolphins and whales
+                    (only if you are lucky and come in the right season!), you'll have to leave early in the morning,
+                    sometimes as early as five o'clock, so that you can see a lot of them during their feeding time. The
+                    last time we did it, we saw a hundreds of dolphins, playing, jumping, spinning, and swimming next to
+                    and under our boat. It was really fascinating to see them in the wild, and observe their intelligent
+                    style of catching fish by surrounding a school of fish with a group of dolphin's, then tightening up
+                    the circle until the fish had nowhere else to go and would literally jump into the open mouths of
+                    the dolphins.</p>
             </div>
         </div>
     </section>
 
     <!-- Texts -->
     <section>
-        <div>
+        <hr>
+        <div class="sections">
             <h1>Upcoming Events</h1>
             <ul>
-                <li><a href="">Event #1</a></li>
-                <li><a href="">Event #2</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Sandugo_Festival">Sandugo Festival</a></li>
+                <li><a href="http://www.boholtourismph.com/ubi-festival/">Ubi Festival</a></li>
             </ul>
         </div>
         <hr>
-        <div>
+        <div class="sections">
             <h1>Newsfeed</h1>
             <!-- 2 Bold header thing w/ indented paragraph -->
-            <p>Paragraph #1</p>
-            <p>Paragraph #2</p>
+            <h4><em>Tagbilaran City</em></h4>
+            <p class="newsfeed-desc">Tagbilaran is the capital of Bohol, and its only city. It is located at the
+                south-western end of the
+                island. Most boats arrive here, and all scheduled flights land on its one-strip airport, not far from
+                the city center. Apart from visiting several shopping malls, such as Bohol Quality, Island City Mall,
+                and Plaza Marcela, you dine in various restaurants, visit the Bohol Museum, and a number of interesting
+                landmarks, such as the Sandugo blood compact site, which is located in the Bool district of Tagbilaran
+                city. This monument is included in most tours, and offers a nice view over the Bohol sea, with Panglao
+                island to the right and Pamilacan island a bit farther away to the left.</p>
+            <h4><em>Panglao</em></h4>
+            <p class="newsfeed-desc">Panglao is both the name of the island south of Bohol, and of the southernmost of
+                the two municipalities
+                on this island, the other being Dauis, which you will pass through first. The municipality of Panglao is
+                home to some of the best known beaches of Bohol, including Doljo beach, Dumaluan beach and Alona beach,
+                and has numerous beach resorts. For those curious enough to take a short ride to the town proper -
+                easily done on a morning or afternoon, the old town Panglao (known as the poblacion) still preserves the
+                traditional layout of a Philippine rural town: A large town-square, covered with grass, with on one side
+                the Church, another the town hall, and on a third the local school. Add to this the remnants of an older
+                church (of which only one stone wall remains, the remainder of this building was previously made of
+                bamboo), and a massive hexagonal watchtower, the largest on Bohol.</p>
         </div>
-        <div>
+
+        <hr>
+
+        <div class="sections">
             <h1>How much does a Bohol trip cost?</h1>
             <table>
                 <tr>
@@ -87,21 +140,19 @@
 
     <hr>
     <!-- Contact US -->
-    <section>
-        <address>
-            <div class="contact-info">
-                <img src="img/logos/phone.png" alt="phone icon" class="logos">
-                <p><a href="tel:8009999999">+1(800)-999-9999</a></p>
-            </div>
-            <div class="contact-info">
-                <img src="img/logos/email.png" alt="mail icon" class="logos">
-                <p>Email to: <a href="mailto:email@gmail.com">Cirill Dalangin</a></p>
-            </div>
-            <div class="contact-info">
-                <img src="img/logos/instagram.png" alt="instagram icon" class="logos">
-                <p><a href="https://www.instagram.com/">Follow us on Instagram!</a></p>
-            </div>
-        </address>
+    <section class="sections">
+        <div class="contact-info">
+            <img src="img/logos/phone.png" alt="phone icon" class="logos">
+            <p><a href="tel:8009999999">+1(800)-999-9999</a></p>
+        </div>
+        <div class="contact-info">
+            <img src="img/logos/email.png" alt="mail icon" class="logos">
+            <p>Email to: <a href="mailto:email@gmail.com">Cirill Dalangin</a></p>
+        </div>
+        <div class="contact-info">
+            <img src="img/logos/instagram.png" alt="instagram icon" class="logos">
+            <p><a href="https://www.instagram.com/">Follow us on Instagram!</a></p>
+        </div>
     </section>
 
     <hr>
@@ -109,10 +160,10 @@
     <!-- Footer -->
     <footer>
         <div class="footer_links">
-            <a href="">Home</a> |
-            <a href="">Chocolate Hills</a> |
-            <a href="">Island Hopping</a> |
-            <a href="">Contact Us</a>
+            <a href="./index.html">Home</a> |
+            <a href="#">Chocolate Hills</a> |
+            <a href="./islandhopping.html">Island Hopping</a> |
+            <a href="./contact.html">Contact Us</a>
         </div>
         <div class="footer_text">
             <p>2021 @ Project 1 by Cirill Dalangin</p>
