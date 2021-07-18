@@ -11,27 +11,49 @@
 </head>
 
 <body>
+    <nav class="navbar">
+        <div class="left-nav">
+            <img src="img/photos/plane.png" alt="airplane" class="nav-img">
+            <p>Explore Bohol</p>
+        </div>
+        <div>
+            <img src="img/photos/tarsier.jpg" alt="map" class="nav-img">
+        </div>
+    </nav>
     <h1 class="page-title fans page-text">Contact Us!</h1>
     <section class="sections contact-page">
-        <div>
+        <div class="contact-links">
             <p class="page-text">Fan? Drop a note.</p>
-            <p class="page-text">Bohol, Philippines</p>
-            <p class="page-text"><a href="tel:8009999999">+1(800)-999-9999</a></p>
-            <p class="page-text">Email to: <a href="mailto:email@gmail.com">Cirill Dalangin</a></p>
+            <div class="contact-sections">
+                <img src="img/logos/pin.png" alt="mail icon" class="contact-logos">
+                <a href="https://goo.gl/maps/iX6N15rYnJP3ehDY9" class="page-text">Bohol, Philippines</a>
+            </div>
+            <div class="contact-sections">
+                <img src="img/logos/email.png" alt="mail icon" class="contact-logos">
+                <p class="page-text"><a href="tel:8009999999">+1(800)-999-9999</a></p>
+            </div>
+            <div class="contact-sections">
+                <img src="img/logos/instagram.png" alt="instagram icon" class="contact-logos">
+                <p class="page-text">Email to: <a href="mailto:email@gmail.com">Cirill Dalangin</a></p>
+            </div>
+
+
+
         </div>
 
         <div class="contact-form">
             <h3 class="page-text"><em>We love our fans!</em></h3>
             <form>
-                <div class="inline-form">
-                    <input type="text" name="name" placeholder="Name">
-                    <input type="email" name="email" placeholder="Email">
+                <div>
+                    <input type="text" name="name" placeholder="Name" class="form-inputs inline-form">
+                    <input type="email" name="email" placeholder="Email" class="form-inputs inline-form">
                 </div>
                 <div>
-                    <textarea type="text" name="comment" placeholder="comment" rows="10" cols="30"></textarea>
+                    <textarea type="text" name="comment" placeholder="Comment" rows="10" cols="50"
+                        class="form-inputs"></textarea>
                 </div>
-                <div>
-                    <button class="submit">Send</button>
+                <div class="button-div">
+                    <input class="submit page-text" type="submit" value="Send">
                 </div>
             </form>
         </div>

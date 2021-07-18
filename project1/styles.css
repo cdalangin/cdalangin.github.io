@@ -4,6 +4,10 @@ body {
     background-color: #DFEEEA;
 }
 
+hr {
+    color: #2F5D62;
+}
+
 h1 {
     color: #2F5D62;
 }
@@ -189,13 +193,38 @@ footer {
 .contact-page {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-logos {
+    height: 15%;
+    width: 15%;
+    margin-right: 7%;
+}
+
+.contact-links {
+    padding: 3%;
+}
+
+.contact-sections {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    align-items: center;
 }
 
 .contact-form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 2%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .page-text {
@@ -203,6 +232,31 @@ footer {
     color: #5E8B7E;
 }
 
+.form-inputs {
+    border: none;
+    border-radius: 5px;
+    margin: 2% 0;
+    font-size: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inline-form {
+    width: 48%;
+}
+
 .fans {
     letter-spacing: 4px;
+}
+
+.button-div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.submit {
+    padding: 3% 6%;
+    border: none;
+    color: white;
+    background-color: #2F5D62;
 }
