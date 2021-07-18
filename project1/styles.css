@@ -89,18 +89,8 @@ p {
     
 }
 
-
-/* Events */
-
-/* .events {
-    padding: 30px
-} */
-
 /* Newsfeed */
 
-/* .newsfeed {
-    padding: 30px
-} */
 
 .newsfeed-desc {
     margin-top: 0;
@@ -120,13 +110,10 @@ td, tr {
 }
 th {
     background-color: #5E8B7E;
-    /* text-align: ; */
 }
 
 /* Contact Us */
-/* .contact {
-    padding: 30px
-} */
+
 .contact-info {
     display: flex;
     flex-direction: row;
@@ -210,7 +197,6 @@ footer {
 .contact-sections {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-around; */
     align-items: center;
 }
 
@@ -259,4 +245,5 @@ form {
     border: none;
     color: white;
     background-color: #2F5D62;
+    cursor: pointer;
 }
