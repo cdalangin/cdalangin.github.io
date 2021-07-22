@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race Cars</title>
+
+    <style>
+        .track {
+            background-image: url(./track.jpg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 50vh;
+        }
+
+        .vehicles {
+            position: relative;
+            /* animation: racing 6s infinite */
+        }
+
+        .car {
+            height: 100px;
+            position: absolute;
+            top: 20px;
+            animation: racing 3s forwards;
+
+        }
+
+        .bike {
+            height: 100px;
+            position: absolute;
+            top: 100px;
+            animation: racing 6s forwards;
+        }
+
+        .tractor {
+            height: 100px;
+            position: absolute;
+            top: 180px;
+            animation: racing 5s forwards;
+        }
+
+        @keyframes racing {
+            0% {
+                left: 0
+            }
+
+            100% {
+                left: 90vw;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="track">
+        <div class="vehicles">
+            <img src="tractor.png" alt="tractor" class="tractor">
+            <img src="car.png" alt="car" class="car">
+            <img src="bike.png" alt="bike" class="bike">
+        </div>
+
+    </div>
+
+</body>
+
+</html>

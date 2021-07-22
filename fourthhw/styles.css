@@ -1,0 +1,59 @@
+.clock {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.face {
+    background-color: pink;
+    background-image: url(./clockface.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.arm1 {
+    height: 50%;
+    position: absolute;
+    top: 5.5%;
+    left: 24%;
+    transform-origin: 50% 88%;
+    animation: arm1 10s infinite forwards;
+}
+
+.arm2 {
+    height: 50%;
+    position: absolute;
+    top: 5.5%;
+    left: 24%;
+    transform-origin: 50% 87%;
+    animation: arm2 10s infinite forwards;
+}
+
+@keyframes arm1 {
+    0% {
+        transform: rotateZ(0deg);
+
+    }
+
+    100% {
+        transform: rotateZ(360deg);
+
+    }
+}
+
+@keyframes arm2 {
+    0% {
+        transform: rotate(90deg);
+
+    }
+
+    100% {
+        transform: rotate(120deg);
+
+    }
+}
