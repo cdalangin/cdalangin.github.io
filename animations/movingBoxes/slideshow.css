@@ -1,0 +1,160 @@
+/* 4 Divs */
+
+.frame {
+    border: 2px solid red;
+    height: 100px;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+
+.slidewrapper {
+    border: 2px solid blue;
+    width: 400%;
+    height: 100%;
+    display: flex;
+    animation: slideshow 6s infinite forwards;
+}
+
+.slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    width: 25%;
+    float: left;
+    font-size: 24px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.p1 {
+    background-color: pink;
+}
+
+.p2 {
+    background-color: blue;
+}
+
+.p3 {
+    background-color: burlywood;
+}
+
+.p4 {
+    background-color: chocolate;
+}
+
+@keyframes slideshow {
+    0% {
+        margin-left: -0%
+    }
+
+    25% {
+        margin-left: -100%
+    }
+
+    50% {
+        margin-left: -200%
+    }
+
+    75% {
+        margin-left: -300%
+    }
+
+    99% {
+        margin-left: -300%
+    }
+}
+
+/* 4 Images */
+
+.frame2 {
+    border: 2px solid red;
+    height: 400px;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.i1 {
+    background-image: url("./img/monkey.jpg")
+}
+
+.i2 {
+    background-image: url("./img/platterb.jpg")
+}
+
+.i3 {
+    background-image: url("./img/radish.jpg")
+}
+
+.i4 {
+    background-image: url("./img/sunflower.jpg")
+}
+
+/* 10 Images */
+
+.slidewrapper10 {
+    border: 2px solid blue;
+    width: 1000%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    animation: slideshow10 15s infinite forwards;
+
+}
+
+h1 {
+    color: white;
+    background-color: blue;
+    padding: 20px;
+
+    border-radius: 50%;
+}
+
+@keyframes slideshow10 {
+    0% {
+        margin-left: -0%
+    }
+
+    10% {
+        margin-left: -100%
+    }
+
+    20% {
+        margin-left: -200%
+    }
+
+    30% {
+        margin-left: -300%
+    }
+
+    40% {
+        margin-left: -400%
+    }
+
+    50% {
+        margin-left: -500%
+    }
+
+    60% {
+        margin-left: -600%
+    }
+
+    70% {
+        margin-left: -700%
+    }
+
+    80% {
+        margin-left: -800%
+    }
+
+    90% {
+        margin-left: -900%
+    }
+
+    99% {
+        margin-left: -900%
+    }
+}
