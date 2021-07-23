@@ -9,3 +9,5 @@
 - [Project #1](https://cdalangin.github.io/project1/index.html)
 
 - [Fourth HW - Clock](https://cdalangin.github.io/fourthhw/index.html)
+
+- [Fifth HW - 2 Modals](https://cdalangin.github.io/fifthhw/modal.html)
