@@ -11,3 +11,6 @@
 - [Fourth HW - Clock](https://cdalangin.github.io/fourthhw/index.html)
 
 - [Fifth HW - 2 Modals](https://cdalangin.github.io/fifthhw/modal.html)
+
+- [Sixth HW - Bootstrap](https://cdalangin.github.io/sixthhw/index.html)
+
