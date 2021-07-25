@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+
+/* Global Variables */
+
+body {
+    min-height: 100vh;
+    background-color: #FEF7DC;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+.header { 
+    height: 100px
+}
+.logo {
+    border: 2px solid #99BBAD;
+    border-radius: 10px;
+    animation: logoanim 1.5s linear forwards; 
+}
+
+@keyframes logoanim {
+    0% {
+        height: 50px;
+        width: 50px;
+    }
+
+    100% {
+        height: 75px;
+        width: 75px;
+    }
+}
+
+.maintitle {
+    color: #99BBAD;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    animation: headeranim 1s linear forwards;
+}
+
+@keyframes headeranim {
+    0% {
+        opacity: 0;
+        margin-bottom: -20%;
+    }
+
+    100% {
+        opacity: 1;
+        margin-bottom: 0%;
+    }
+}
+
+.subtitle {
+    animation: subtitleanim 1.5s linear forwards;
+    color: #C6A9A3;
+}
+
+@keyframes subtitleanim {
+    0% {
+        opacity: 0;
+        margin-top: -20%;
+    }
+
+    100% {
+        opacity: 1;
+        margin-top: 0%;
+    }
+}
+
+/* Sliding Thing */
+
+.slidein {
+    background-color: #9A8194;
+}
+
+.slidetext {
+    color: #FEF7DC;
+    animation: slidein 2s linear;
+}
+
+
+@keyframes slidein {
+    0% {
+        margin-left: -100%;
+    }
+
+    100% {
+        margin-left: 0%;
+    }
+}
+
+/* Hero */
+
+.hero {
+    background-image: url("./img/intro_img2.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+/* Info */
+
+.flower {
+    background-image:linear-gradient(to bottom, #c6a9a3b9, #9a81949a),
+    url("./img/intro_img1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+
+.flowertext {
+    background-color: rgba(128, 128, 128, 0.712);
+}
+
+.strengthen {
+    background: linear-gradient(#9A8194, #C6A9A3);
+    height: 300px;
+    width: 300px;
+    color: #FEF7DC;
+}
+
+/* Lotions */
+
+.lotions {
+    color: #9A8194
+}
+
+.ritual {
+    color: #99BBAD;
+}
+
+.lotioncontent {
+    font-size: 80%;
+}
+
+.mainmodal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #9a8194be;
+    margin: auto;
+    pointer-events: none;
+    align-items: center;
+    opacity: 0;
+    
+}
+
+.mainmodal:target {
+    opacity: 1;
+    pointer-events: all;
+    transition:opacity 1s;
+}
+
+.prodblock {
+    width: 80%;
+    height: 90%;
+    background-color: white;
+    color: #99BBAD;
+    position: relative;
+    padding: 30px;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 15px;
+    overflow: auto;
+}
+
+.prodimg {
+    height: 200px;
+}
+
+.proddesc {
+    background-color: #99BBAD;
+}
+
+.outerbutton {
+    background-color: #99BBAD;
+    color: #FEF7DC;
+}
+
+.outerbutton:hover {
+    background-color: #d0eee1;
+    color: #FEF7DC;
+}
+
+.modalbutton {
+    background-color: #FEF7DC;
+    color: #99BBAD;
+}
+
+.modalbutton:hover {
+    background-color: #ffffff;
+    color: #99BBAD;
+}
+
+/* Footer */
+
+.socmed {
+    height: 50px;
+    width: 50px
+}
+
+.footertext {
+    font-size: 90%;
+}
