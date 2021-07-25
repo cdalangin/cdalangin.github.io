@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <title>Major League Hacking</title>
+</head>
+
+<body class="bg-dark">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand text-info" href="#">MLH</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-info active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-info" href="#mlhabout">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-info" href="#mlhmascots">Mascots</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-info" href="#mlhstickers">Stickers</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="mlhabout" class="container bg-light w-50 m-auto mt-3 p-5">
+        <p class="h1 text-info">What is Major League Hacking?</p>
+        <p class="text-info">Major League Hacking (MLH) is the official student hackathon league. Each year, we power
+            over 200
+            weekend-long invention competitions that inspire innovation, cultivate communities and teach computer
+            science skills to more than 65,000 students around the world. MLH is an engaged and passionate maker
+            community, consisting of the next generation of technology leaders and entrepreneurs.</p>
+        <div class="row">
+            <img src="./img/trophy.jpg" alt="trophy" class="w-75 m-5">
+            <div class="d-flex justify-content-sm-end ">
+                <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#mlhinfo">
+                    Open Modal
+                </button>
+
+                <div class="modal fade" id="mlhinfo" tabindex="-1" aria-labelledby="mlhinfo" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="mlhinfo">What is Major League Hacking?</h5>
+                            </div>
+                            <div class="modal-body">
+                                <p class="text-info">MLH has been a community first, mission driven organization from
+                                    the beginning. We measure our success by the number of hackers we empower, and we
+                                    want to keep it that way. That’s why we made it official and became a Certified B
+                                    Corporation in 2016. B Corps are for-profit enterprises that are legally required to
+                                    consider the impact of their decisions on their community, not just their
+                                    shareholders.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="mlhmascots" class="container vh-50">
+        <div class="row  h-50">
+            <div class="col-sm-4 bg-info mt-4 d-flex flex-column justify-content-center align-items-center p-4">
+                <p class="h1 m-2 text-light text-center">Ducky the Debugger</p>
+                <img src="./img/duck.png" alt="Ducky the Debugger" class="w-75 m-5 rounded-circle">
+                <p class="text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam
+                    commodi pariatur praesentium cumque enim a repudiandae vel! Maiores excepturi, hic asperiores id ab
+                    nam fuga ipsam, voluptate perspiciatis iusto distinctio.</p>
+                <button type="button" class="btn btn-outline-light btn-lg">Info</button>
+            </div>
+            <div class="col-sm-4 bg-light mt-4 d-flex flex-column justify-content-center align-items-center p-4">
+                <p class="h1 m-2 text-info text-center">Ellie the Electric Elephant</p>
+                <img src="./img/elephant.jpg" alt="Ellie the Electric Elephant" class="w-75 m-5 rounded-circle">
+
+                <p class="text-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam
+                    commodi pariatur praesentium cumque enim a repudiandae vel! Maiores excepturi, hic asperiores id ab
+                    nam fuga ipsam, voluptate perspiciatis iusto distinctio.</p>
+                <button type="button" class="btn btn-outline-info btn-lg">Info</button>
+            </div>
+            <div class="col-sm-4 bg-info mt-4 d-flex flex-column justify-content-center align-items-center p-4">
+
+                <p class="h1 m-2 text-light text-center">Frankie the File System Ferret</p>
+                <img src="./img/ferret.png" alt="Frankie the File System Ferret" class="w-75 m-5 rounded-circle">
+                <p class="text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam
+                    commodi pariatur praesentium cumque enim a repudiandae vel! Maiores excepturi, hic asperiores id ab
+                    nam fuga ipsam, voluptate perspiciatis iusto distinctio.</p>
+                <button type="button" class="btn btn-outline-light btn-lg">Info</button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <div id="mlhstickers" class="container vh-50 p-5">
+        <div class="row">
+            <div class="col-sm-8 bg-light d-flex flex-column justify-content-center align-items-center  p-5">
+                <img src="./img/sticker.jpg" alt="yarn" class="w-75">
+                <p class="h3 m-2 text-info">2022 Hacking Season Sticker</p>
+                <p class="m-2 text-info">See you soon and happy hacking!</p>
+            </div>
+            <div class="col-sm-4 bg-info">
+                <div class="row px-1">
+                    <div class="col-sm-4">
+                        <img src="./img/sticker.jpg" alt="2022 Season Sticker"
+                            class="w-100 p-1 my-2 border border-light">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="./img/sticker.jpg" alt="2022 Season Sticker"
+                            class="w-100 p-1 my-2 border border-light">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="./img/sticker.jpg" alt="2022 Season Sticker"
+                            class="w-100 p-1 my-2 border border-light">
+                    </div>
+                </div>
+                <div class="row px-1">
+                    <div class="col-sm-4">
+                        <img src="./img/sticker.jpg" alt="2022 Season Sticker"
+                            class="w-100 p-1 my-2 border border-light">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="./img/sticker.jpg" alt="2022 Season Sticker"
+                            class="w-100 p-1 my-2 border border-light">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="./img/sticker.jpg" alt="2022 Season Sticker"
+                            class="w-100 p-1 my-2 border border-light">
+                    </div>
+                </div>
+                <div class="row px-1">
+                    <div class="col-sm-4">
+                        <img src="./img/sticker.jpg" alt="2022 Season Sticker"
+                            class="w-100 p-1 my-2 border border-light">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="./img/sticker.jpg" alt="2022 Season Sticker"
+                            class="w-100 p-1 my-2 border border-light">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="./img/sticker.jpg" alt="2022 Season Sticker"
+                            class="w-100 p-1 my-2 border border-light">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
