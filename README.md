@@ -14,3 +14,5 @@
 
 - [Sixth HW - Bootstrap](https://cdalangin.github.io/sixthhw/index.html)
 
+- [Project #2 - E-commerce Site](https://cdalangin.github.io/project2/index.html)
+
