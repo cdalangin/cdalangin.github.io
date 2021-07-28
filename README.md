@@ -14,3 +14,4 @@
 
 - [Sixth HW - Bootstrap](https://cdalangin.github.io/sixthhw/index.html)
 
+- [Seventh HW - JavaScript](https://cdalangin.github.io/seventhhw/javascript.html)
