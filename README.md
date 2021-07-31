@@ -17,3 +17,5 @@
 - [Project #2 - E-commerce Site](https://cdalangin.github.io/project2/index.html)
 
 - [Seventh HW - JavaScript](https://cdalangin.github.io/seventhhw/javascript.html)
+
+- [Eighth HW - JS Functions](https://cdalangin.github.io/eighthhw/index.html)
