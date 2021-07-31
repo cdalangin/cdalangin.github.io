@@ -18,4 +18,4 @@
 
 - [Seventh HW - JavaScript](https://cdalangin.github.io/seventhhw/javascript.html)
 
-- [Eighth HW - JS Functions](https://cdalangin.github.io/eighthhw/index.html)
+- [Eighth HW - JS Functions](https://cdalangin.github.io/eighthHW/index.html)
