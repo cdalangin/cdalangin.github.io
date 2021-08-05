@@ -22,4 +22,4 @@
 
 - [Project #3 - Guess my Number](https://cdalangin.github.io/project3/index.html)
 
-- [Tenth HW - PostgreSQL Tables](https://cdalangin.github.io/tenthhw/README.MD)
+- [Tenth HW - PostgreSQL Tables](https://github.com/cdalangin/cdalangin.github.io/tree/master/tenthhw)
