@@ -21,3 +21,5 @@
 - [Eighth HW - JS Functions](https://cdalangin.github.io/eighthHW/index.html)
 
 - [Project #3 - Guess my Number](https://cdalangin.github.io/project3/index.html)
+
+- [Tenth HW - PostgreSQL Tables](https://cdalangin.github.io/tenthhw/README.MD)
