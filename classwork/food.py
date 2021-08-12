@@ -1,4 +1,4 @@
-# Assignment 1
+# Assignment 13
 print("-----PART A------")
 myList = [2, 4, 6, 8, 10, 12, 14, 16]
 print("myList:", myList)
