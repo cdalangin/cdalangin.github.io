@@ -1,0 +1,14 @@
+body {
+    background-image: linear-gradient(pink, powderblue);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
